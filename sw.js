@@ -1,4 +1,4 @@
-const CACHE_NAME = "lingyin-handpan-pwa-v2";
+const CACHE_NAME = "lingyin-handpan-pwa-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
