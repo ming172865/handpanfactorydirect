@@ -6,8 +6,8 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#080908",
-  "theme_color": "#10100d",
+  "background_color": "#f7f2e8",
+  "theme_color": "#f7f2e8",
   "icons": [
     {
       "src": "./assets/app-icon-192.png",
