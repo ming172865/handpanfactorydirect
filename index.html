@@ -8,6 +8,12 @@
       name="description"
       content="Lingyin Handpan 是一家专注手工调音、定制音阶与出口交付的手碟制造工坊。"
     />
+    <meta name="theme-color" content="#10100d" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Lingyin" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./assets/app-icon-192.png" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -262,6 +268,13 @@
         </form>
       </section>
     </main>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("./sw.js").catch(() => {});
+        });
+      }
+    </script>
   </body>
 </html>
 
