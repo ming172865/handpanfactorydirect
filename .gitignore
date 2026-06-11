@@ -1,0 +1,8 @@
+.wrangler/
+.netlify/
+*.log
+wrangler-pages-dev.err.log
+wrangler-pages-dev.out.log
+.DS_Store
+Thumbs.db
+node_modules/
